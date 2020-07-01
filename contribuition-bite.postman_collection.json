@@ -1,0 +1,33 @@
+{
+  "info": {
+    "_postman_id": "838306c2-6803-4704-be21-b2a700e650f1",
+    "name": "contrib-bites",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Insert post",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "  { \r\n        \"Title\": \"Pq o git é irado?\",\r\n        \"Body\": \"O git é totalmente irado, acredite!\",\r\n        \"UserId\": \"701e8d4b-dfc5-4fbe-b61f-1d61d1823bc7\"\r\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://contribution-bites-final.azurewebsites.net/api/post/InsertPost",
+          "protocol": "https",
+          "host": ["contribution-bites-final", "azurewebsites", "net"],
+          "path": ["api", "post", "InsertPost"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "protocolProfileBehavior": {}
+}
